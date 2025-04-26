@@ -1,0 +1,18 @@
+{
+  "name": "fetch-wrapper",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@plasmaconduit/strata": "0.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

@@ -7,8 +7,8 @@ await build({
   outDir: "./npm",
   shims: {
     deno: {
-      test: "dev"
-    }
+      test: "dev",
+    },
   },
   package: {
     name: "@plasmaconduit/strata",

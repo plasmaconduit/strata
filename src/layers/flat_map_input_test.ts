@@ -26,7 +26,7 @@ Deno.test("asynchronously manipulates the input", async () => {
 
   // then ...
   assert.equal(result, "Hello, WORLD");
-  });
+});
 
 Deno.test("fails while asynchronously manipulating the input", async () => {
   // given ...

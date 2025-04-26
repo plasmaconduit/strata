@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "imports": {
+    "@plasmaconduit/strata": "jsr:@plasmaconduit/strata@^0.1.0"
+  }
+}
