@@ -1,8 +1,12 @@
 {
+  "name": "@plasmaconduit/strata",
+  "version": "0.1.0",
+  "license": "MIT",
   "compilerOptions": {
     "strict": true
   },
   "imports": {
     "@deno/dnt": "jsr:@deno/dnt@^0.41.3"
-  }
+  },
+  "exports": "./mod.ts"
 }

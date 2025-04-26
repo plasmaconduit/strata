@@ -1,4 +1,3 @@
-// ex. scripts/build_npm.ts
 import { build, emptyDir } from "@deno/dnt";
 
 await emptyDir("./npm");
@@ -12,10 +11,11 @@ await build({
     }
   },
   package: {
-    name: "strata",
+    name: "@plasmaconduit/strata",
     version: Deno.args[0],
     description:
       "Strata is a library that provides a small set of standard interfaces for building network-based clients and servers.",
+    private: false,
     license: "MIT",
     repository: {
       type: "git",
